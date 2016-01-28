@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/kingluddite/bhs-workflow-experiment/issues"
   },
-  "homepage": "https://github.com/kingluddite/bhs-workflow-experiment#readme"
+  "homepage": "https://github.com/kingluddite/bhs-workflow-experiment#readme",
+  "dependencies": {
+    "normalize.css": "^3.0.3"
+  }
 }
