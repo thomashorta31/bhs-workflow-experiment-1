@@ -12,8 +12,9 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" type="text/css" href="node_modules/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="node_modules/normalize.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -34,10 +35,10 @@
                         <input class="search-submit" type="image" value="Search" src="img/btn_search.gif">
                     </form>
                 </div>
-                <!-- END #searchContainer -->
+                <!-- END .search-container -->
                 <a class="donate" target="_blank" href="#"> <img width="199" height="34" alt="Donate" src="img/button_donate.png"> </a>
             </div>
-            <!-- END #miscItems -->
+            <!-- END .misc-items -->
             <a href="index.html"><img src="img/bhs_logo.png" alt="BHS Logo" width="121" height="121" class="logo"></a>
             <nav>
                 <ul class="main-nav">
@@ -54,109 +55,129 @@
         <!-- END header -->
         <div class="content-container" class="clearfix">
             <div class="main-content">
-                <h1 class="ir">About Us</h1>
-                <ul class="breadcrumbs">
-                    <li><a href="index.html">Home</a> > </li>
-                    <li><a href="about_us.html">About Us</a> > </li>
-                    <li><a href="#" class="current-page">Mission, Vission, Values</a></li>
-                </ul>
-                <img src="img/about_heading_image.jpg" alt="Since 1973" width="659" height="217">
-                <div class="primary-content">
-                    <h2>Mission, Vision, Values</h2>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce justo tellus, auctor eget tempor et, aliquam vel massa. Fusce aliquet, erat id porttitor tempus, dolor elit luctus lacus, ut sodales mi metus nec magna. Donec hendrerit arcu erat. Suspendisse potenti. Etiam euismod dignissim leo, non rhoncus libero porta at. Praesent vehicula pharetra rutrum. Nunc lorem erat, aliquet id accumsan eget, elementum id turpis. Sed dui enim, egestas sollicitudin malesuada eu, tincidunt ac dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam porta felis et orci ultrices dapibus eget sed urna. Donec sed dui nulla.</p>
-                    <p>Phasellus in quam tortor, vel elementum nunc. Vivamus risus turpis, semper id suscipit rutrum, interdum elementum lacus. Etiam fermentum sodales risus, et congue sapien pulvinar et. Vestibulum vitae ipsum in enim lacinia pellentesque. Nulla iaculis luctus est, sed euismod lacus varius id. Sed in nulla id arcu feugiat sagittis. Cras accumsan tempus arcu, quis feugiat orci pellentesque non. Phasellus quis purus id ipsum imperdiet eleifend. Sed faucibus velit sit amet est tincidunt pellentesque.</p>
+
+                        <ol class="breadcrumb">
+                            <li><a href="index.html">Home</a> > </li>
+                            <li><a href="about_us.html">About Us</a> > </li>
+                            <li><a href="#" class="current-page">Mission, Vission, Values</a></li>
+                        </ol>
+                            <h1 class="ir">About Us</h1>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <img src="img/about_heading_image.jpg" alt="Since 1973" width="659" height="217">
+                        </div>
+                        <!-- END col -->
+                    </div>
+                    <!-- END .row -->
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                            <div class="primary-content">
+                                <h2>Mission, Vision, Values</h2>
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce justo tellus, auctor eget tempor et, aliquam vel massa. Fusce aliquet, erat id porttitor tempus, dolor elit luctus lacus, ut sodales mi metus nec magna. Donec
+                                    hendrerit arcu erat. Suspendisse potenti. Etiam euismod dignissim leo, non rhoncus libero porta at. Praesent vehicula pharetra rutrum. Nunc lorem erat, aliquet id accumsan eget, elementum id turpis. Sed dui enim, egestas
+                                    sollicitudin malesuada eu, tincidunt ac dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam porta felis et orci ultrices dapibus eget sed urna. Donec sed dui nulla.</p>
+                            </div>
+                            <!-- END .primary-content -->
+                        </div>
+                        <!-- END col -->
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                            <div class="secondary-content">
+                                <p>Phasellus in quam tortor, vel elementum nunc. Vivamus risus turpis, semper id suscipit rutrum, interdum elementum lacus. Etiam fermentum sodales risus, et congue sapien pulvinar et. Vestibulum vitae ipsum in enim lacinia
+                                    pellentesque. Nulla iaculis luctus est, sed euismod lacus varius id. Sed in nulla id arcu feugiat sagittis. Cras accumsan tempus arcu, quis feugiat orci pellentesque non. Phasellus quis purus id ipsum imperdiet eleifend.
+                                    Sed faucibus velit sit amet est tincidunt pellentesque.</p>
+                            </div>
+                            <!-- END .secondary-content -->
+                        </div>
+                        <!-- END col -->
+                    </div>
+                    <!-- END .row -->
                 </div>
-                <!-- END .primary-content -->
-                <div class="secondary-content">
-                    <article class="my-facebook-entry" class="clearfix">
-                        <img src="img/facebook_icon_buttons.png" alt="facebook placeholder buttons" width="242" height="38">
-                        <hgroup>
-                            <h3 class="ir">Latest Facebook Post</h3>
-                            <h4>May 27,  2011 10:21 AM<span class="author">by ScienceDaily</span></h4>
-                            <h5>Fish Oil May Have Positive Effects on Mood, Alcohol Craving, New Study Shows</h5>
-                        </hgroup>
-                        <p>Recovery Month promotes the societal benefits of treatment for substance use disorders and mental health problems, celebrates people in recovery, lauds the contributions of treatment providers, and promotes the message that recovery in all its forms is possible. Recovery Month spreads the positi</p>
-                        <a href="#" style="float: right">MORE</a>
-                    </article>
-                    <article class="recent-job-post">
-                        <hgroup>
-                            <h3 class="ir">Recent Post</h3>
-                            <h4>May 9, 2011 10:21 AM</h4>
-                            <h5>932-Counselor I-HWD</h5>
-                        </hgroup>
-                        <a href="#">Click here for more postings</a></article>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <aside>
+                        <article class="my-facebook-entry" class="clearfix">
+                            <img src="img/facebook_icon_buttons.png" alt="facebook placeholder buttons" width="242" height="38">
+                            <hgroup>
+                                <h3 class="ir">Latest Facebook Post</h3>
+                                <h4>May 27,  2011 10:21 AM<span class="author">by ScienceDaily</span></h4>
+                                <h5>Fish Oil May Have Positive Effects on Mood, Alcohol Craving, New Study Shows</h5>
+                            </hgroup>
+                            <p>Recovery Month promotes the societal benefits of treatment for substance use disorders and mental health problems, celebrates people in recovery, lauds the contributions of treatment providers, and promotes the message that
+                                recovery in all its forms is possible. Recovery Month spreads the positi</p>
+                            <a href="#" style="float: right">MORE</a>
+                        </article>
+                        <article class="recent-job-post">
+                            <hgroup>
+                                <h3 class="ir">Recent Post</h3>
+                                <h4>May 9, 2011 10:21 AM</h4>
+                                <h5>932-Counselor I-HWD</h5>
+                            </hgroup>
+                            <a href="#">Click here for more postings</a></article>
+
+
+                        <nav>
+                            <ul class="side-nav">
+                                <li><a href="#" class="current-page">Mission, Vision, Values</a></li>
+                                <li><a href="ceo_message.html">CEO Message</a></li>
+                                <li><a href="philosophy">Philosophy</a></li>
+                                <li>
+                                    <a class="pdf-privacy" href="privacy_notice.html"><img src="img/pdf_icon.png" alt="pdf of Privacy Notice" width="18" height="17"></a><a href="#">Privacy Notice</a></li>
+                            </ul>
+                        </nav>
+                        <h2 class="get-involved-sidebar-heading">Get Involved</h2>
+                        <div class="aside-box"><img src="img/get_involved_placeholder.png" alt="placeholder">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                <br />
+                                <br /><a href="#">Click here for more</a></p>
+                        </div>
+                        <hr />
+                        <h2 class="success-stories-sidebar-heading">Success Stories</h2>
+                        <div class="aside-box">
+                            <img src="img/success_stories_placeholder.png" alt="placeholder">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                <br />
+                                <br /> <a href="#">Click here for more</a></p>
+                        </div>
+                        <img src="img/donate_button.png" alt="donate!" width="242" height="34">
+                    </aside>
                 </div>
-                <!-- END .secondary-content -->
             </div>
             <!-- END .main-content -->
-            <aside>
-                <nav>
-                    <ul class="side-nav">
-                        <li><a href="#" class="current-page">Mission, Vision, Values</a></li>
-                        <li><a href="ceo_message.html">CEO Message</a></li>
-                        <li><a href="philosophy">Philosophy</a></li>
-                        <li>
-                            <a class="pdf-privacy" href="privacy_notice.html"><img src="img/pdf_icon.png" alt="pdf of Privacy Notice" width="18" height="17"></a><a href="#">Privacy Notice</a></li>
+            <footer>
+                <section>
+                    <h3 id="aboutUsHeading" class="ir">About Us</h3>
+                    <ul>
+                        <li><a href="#">Our History</a></li>
+                        <li><a href="#">About The CEO</a></li>
+                        <li><a href="#">Sed do eiusmod tempor</a></li>
+                        <li><a href="#">Ut labore et dolore magna</a></li>
                     </ul>
-                </nav>
-                <h2 class="get-involved-sidebar-heading">Get Involved</h2>
-                <div class="aside-box"><img src="img/get_involved_placeholder.png" alt="placeholder">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                        <br />
-                        <br /><a href="#">Click here for more</a></p>
-                </div>
-                <hr />
-                <h2 class="success-stories-sidebar-heading">Success Stories</h2>
-                <div class="aside-box">
-                    <img src="img/success_stories_placeholder.png" alt="placeholder">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                        <br />
-                        <br /> <a href="#">Click here for more</a></p>
-                </div>
-                <img src="img/donate_button.png" alt="donate!" width="242" height="34">
-            </aside>
+                </section>
+                <section id="servicesSpacing">
+                    <h3 id="servicesHeading" class="ir">Services</h3>
+                    <ul>
+                        <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                        <li><a href="#">Consectetur adipisicing elit</a></li>
+                        <li><a href="#">Sed do eiusmod tempor</a></li>
+                        <li><a href="#">Ut labore et dolore magna</a></li>
+                    </ul>
+                </section>
+                <section id="wtgiSpacing">
+                    <h3 id="wtgiHeading" class="ir">Ways To Get Involved</h3>
+                    <ul>
+                        <li><a href="#">Make a Donation</a></li>
+                        <li><a href="#">Become a Corporate Sponsor</a></li>
+                        <li><a href="#">Volunteer Your Time</a></li>
+                        <li><a href="#">Partner Your Agency With Ours</a></li>
+                    </ul>
+                </section>
+                <section id="certLogosSpacing"><img id="adpLogo" src="img/adp_cert_logo.png" width="93" height="93" alt="ADP certification logo"><img id="cartLogo" src="img/cart_cert_logo.png" width="98" height="89" alt="CART certification logo"></section>
+
+                <p>Copyright Behavioral Health Services &copy; 2011. All Rights Reserved.</p>
+            </footer>
         </div>
-        <footer>
-            <div class="footer-top">
-                <div class="other-content">
-                    <div class="about-us-footer">
-                        <h2 class="about-us" class="ir">About Us</h2>
-                        <ul>
-                            <li><a href="#">Our History</a></li>
-                            <li><a href="#">About the CEO</a></li>
-                            <li><a href="#">Sed do eiusmod tempor</a></li>
-                            <li><a href="#">Ut labore et dolore magna</a></li>
-                        </ul>
-                    </div>
-                    <div class="services-footer">
-                        <h2 class="services" class="ir">Services</h2>
-                        <ul>
-                            <li><a href="#">Success Stories</a></li>
-                            <li><a href="#">Prevention Services</a></li>
-                            <li><a href="#">Recovery Centers</a></li>
-                            <li><a href="#">Ut labore et dolore magna</a></li>
-                        </ul>
-                    </div>
-                    <div class="ways-to-get-involved-footer">
-                        <h2 class="ways-to-get-involved" class="ir">Ways To Get Involved</h2>
-                        <ul>
-                            <li><a href="#">Make a Donation</a></li>
-                            <li><a href="#">Become a Corporate Sponsor</a></li>
-                            <li><a href="#">Volunteer Your Time</a></li>
-                            <li><a href="#">Partner Your Agency With Ours</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- END .other-content -->
-                <div class="accred"><img src="img/adp_cert_logo.png" alt="Certification ADP" name="adpCert" width="93" height="93" class="adpCert"><img src="img/cart_cert_logo.png" width="98" height="89" alt="Certification CARF"></div>
-                <!-- END .accred -->
-            </div>
-            <!-- END .top-footer -->
-            <p>Copyright Behavioral Health Services &copy; 2011. All Rights Reserved.</p>
-        </footer>
-    </div>
-    <!-- END .container -->
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <!-- END .container -->
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
