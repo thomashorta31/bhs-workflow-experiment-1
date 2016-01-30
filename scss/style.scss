@@ -4,55 +4,59 @@
  * Author: PEH2
  */
 
-/* color scheme */
-$primary-color:   #233e5f;
-$secondary-color: #ffffff;
-$dove-gray:       #666666;
-$blue-zodiac:     #0c2745;
-$dusty-gray:      #999999;
-$abbey:           #515152;
-$meteor:          #d4740d;
-$black:           #000000;
-$mine-shaft:      #282424;
-$sea-buckthorn:   #f9a634;
-$cloud:           #c2c1c0;
-$silver:          #cccccc;
-$tundora:         #444444;
+@import "variables";
+@import "navigation";
+
+/* box sizing will save your life */
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 body {
-	background: $primary-color url(../img/body_bg_grad.jpg) repeat-x;
+    background: $primary-color url(../img/body_bg_grad.jpg) repeat-x;
 }
+
 a {
-	outline: 0;
+    outline: 0;
 }
+
+
 /* http://haslayout.net/css-tuts/Removing-Dotted-Border-on-Clicked-Links ie9 dotted lines */
 
+
 /* Disable Highlight border focused on form controls in chrome, safari, android and iPhone browser  */
+
 *:focus {
-	outline: none;
+    outline: none;
 }
+
 .container {
-	width: 960px;
-	margin: 0 auto;
-	font-size: 1.2em;
+    width: 960px;
+    margin: 0 auto;
+    font-size: 1.2em;
 }
+
 header {
-	position: relative;
-	background-color: $dove-gray;
+    position: relative;
+    background-color: $dove-gray;
 }
+
 .misc-items {
-	height: 56px;
-	background-color: $blue-zodiac;
-	position: relative;
+    height: 56px;
+    background-color: $blue-zodiac;
+    position: relative;
 }
+
 .search-container {
-	position: absolute;
-	top: 13px;
-	left: 485px;
-  background: transparent url(../img/bg_box.png) no-repeat;
-  width: 258px;
-	height: 37px;
+    position: absolute;
+    top: 13px;
+    left: 485px;
+    background: transparent url(../img/bg_box.png) no-repeat;
+    width: 258px;
+    height: 37px;
 }
+
 .search-container .search-input {
     background-color: transparent;
     border: medium none;
@@ -63,331 +67,297 @@ header {
     margin: 10px 5px 0 28px;
     width: 185px;
 }
+
 .search-container .search-submit {
     margin: 5px 0 0 10px;
     width: 25px;
 }
-.top-nav {
-	font-size: .9em;
-	padding-left: 95px;
-	width: 347px;
-}
-.top-nav li {
-	padding-top: 25px;
-}
-.top-nav span {
-	padding: 0 10px;
-}
-.top-nav a {
-	color: $secondary-color;
-	text-decoration: none;
-}
+
+
+
 .facebook-icon {
-	padding: 12px 10px 0 15px;
+    padding: 12px 10px 0 15px;
 }
+
 .donate {
-	position: absolute;
-	top: 17px;
-	right: 0;
+    position: absolute;
+    top: 17px;
+    right: 0;
 }
+
 .logo {
-	position: absolute;
-	top: 10px;
-	left: 0;
-	z-index: 99;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    z-index: 99;
 }
-nav {
-	height: 72px;
-	background: $dove-gray url(../img/header_bg.png) no-repeat;
-}
-nav ul li, .top-nav li {
-	list-style: none;
-	float: left;
-	color: $secondary-color;
-}
-/* where does the nav start? */
-nav ul {
-	font-size: 11px;
-}
-nav .nav-home a {
-	position: absolute;
-	left: 105px;
-	top: 75px;
-	display: block;
-	width: 100px;
-	padding: 10px;
-	text-align: center;
-}
-nav .nav-about a {
-	position: absolute;
-	left: 240px;
-	top: 75px;
-	display: block;
-	width: 100px;
-	padding: 10px;
-	text-align: center;
-}
-nav .nav-service a {
-	position: absolute;
-	left: 385px;
-	top: 75px;
-	display: block;
-	width: 100px;
-	padding: 10px;
-	text-align: center;
-}
-nav .nav-addict a {
-	position: absolute;
-	left: 505px;
-	top: 75px;
-	display: block;
-	width: 160px;
-	padding: 10px;
-	text-align: center;
-}
-.ie9 nav .nav-addict a {
-	left: 535px;
-}
-nav .nav-appoint a {
-	position: absolute;
-	left: 655px;
-	top: 75px;
-	display: block;
-	width: 150px;
-	padding: 10px;
-	text-align: center;
-}
-.ie9 nav .nav-appoint a {
-	left: 673px;
-}
-nav .nav-contact a {
-	position: absolute;
-	left: 790px;
-	top: 75px;
-	display: block;
-	width: 150px;
-	padding: 10px;
-	text-align: center;
-}
-nav a {
-	color: $abbey;
-	text-decoration: none;
-	display: block;
-}
-nav a:hover {
-	color: $abbey;
-  letter-spacing: 0;
-}
+
+
+
 .page-divider {
-	background: $secondary-color url(../img/bg_div_header.jpg) no-repeat;
-	height: 374px;
-	position: relative;
+    background: $secondary-color url(../img/bg_div_header.jpg) no-repeat;
+    height: 374px;
+    position: relative;
 }
+
 .page-divider h2 {
-	background: transparent url(../img/header_blurb.png) no-repeat;
-	width: 680px;
-	height: 78px;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	z-index: 0;
+    background: transparent url(../img/header_blurb.png) no-repeat;
+    width: 680px;
+    height: 78px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
 }
+
 aside {
-	width: 291px;
-	margin-right: 12px;
-	float: right;
-	height: 294px;
+    width: 291px;
+    margin-right: 12px;
+    float: right;
+    height: 294px;
 }
+
 aside h2.since1973 {
-	background: transparent url(../img/heading_since_1973.png) no-repeat;
-	width: 152px;
-	height: 42px;
-	margin: 16px 10px 0 140px;
-	padding: 10px;
-	position: inherit;
+    background: transparent url(../img/heading_since_1973.png) no-repeat;
+    width: 152px;
+    height: 42px;
+    margin: 16px 10px 0 140px;
+    padding: 10px;
+    position: inherit;
 }
+
 .main-content {
-	width: 960px;
-	float: left;
-	background-color: $secondary-color;
-	line-height: 1.4em;
+    width: 960px;
+    float: left;
+    background-color: $secondary-color;
+    line-height: 1.4em;
 }
+
 .main-content h1 {
-	background: $secondary-color url(../img/heading_welcome_bhs.png) no-repeat;
-	color: $black;
-	width: 623px;
-	height: 47px;
-	margin-left: 30px;
-	margin-top: 15px;
+    background: $secondary-color url(../img/heading_welcome_bhs.png) no-repeat;
+    color: $black;
+    width: 623px;
+    height: 47px;
+    margin-left: 30px;
+    margin-top: 15px;
 }
+
 .main-content .colOne {
-	width: 290px;
-	float: left;
-	padding-left: 30px;
+    width: 290px;
+    float: left;
+    padding-left: 30px;
 }
+
 .main-content .colTwo {
-	width: 290px;
-	float: left;
-	padding-left: 25px;
+    width: 290px;
+    float: left;
+    padding-left: 25px;
 }
+
 .main-content p {
-	padding: 10px 0;
+    padding: 10px 0;
 }
+
 article.facebook-entry {
-	background: $secondary-color url(../img/bg_facebook_post.png) no-repeat;
-	width: 297px;
-	height: 321px;
-	float: right;
-	margin-top: 5px;
+    background: $secondary-color url(../img/bg_facebook_post.png) no-repeat;
+    width: 297px;
+    height: 321px;
+    float: right;
+    margin-top: 5px;
 }
+
 article.facebook-entry h3 {
-	background: $secondary-color url(../img/header_facebook.png) no-repeat;
-	width: 293px;
-	height: 43px;
-	margin-top: 50px;
+    background: $secondary-color url(../img/header_facebook.png) no-repeat;
+    width: 293px;
+    height: 43px;
+    margin-top: 50px;
 }
+
 article.facebook-entry h4 {
-	color: $mine-shaft;
-	padding-left: 30px;
-	padding-top: 5px;
+    color: $mine-shaft;
+    padding-left: 30px;
+    padding-top: 5px;
 }
+
 article.facebook-entry h5 {
-	color: $sea-buckthorn;
-	padding-left: 30px;
-	padding-top: 10px;
+    color: $sea-buckthorn;
+    padding-left: 30px;
+    padding-top: 10px;
 }
+
 article.facebook-entry h5 span {
-	color: $cloud;
+    color: $cloud;
 }
+
 article.facebook-entry p {
-	padding-left: 30px;
-	padding-top: 10px;
-	font-size: 11px;
-	padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 11px;
+    padding-right: 30px;
 }
+
 .secondary-content {
-	background: $silver url(../img/top_footer_bg.png) no-repeat;
-	height: 138px;
-	clear:both;
-	webkit-box-shadow: 5px 5px 25px $black;
-	-moz-box-shadow: 5px 5px 25px $black;
-	box-shadow: 5px 5px 25px $black;
+    background: $silver url(../img/top_footer_bg.png) no-repeat;
+    height: 138px;
+    clear: both;
+    webkit-box-shadow: 5px 5px 25px $black;
+    -moz-box-shadow: 5px 5px 25px $black;
+    box-shadow: 5px 5px 25px $black;
 }
+
 .secondary-content section {
-	float: left;
-	margin-left: 20px;
-	margin-top: 16px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 16px;
 }
+
 .secondary-content section.services-spacing {
-	padding-left: 64px;
+    padding-left: 64px;
 }
+
 .secondary-content section.wtgi-spacing {
-	padding-left: 54px;
+    padding-left: 54px;
 }
+
 .secondary-content section.cert-logos-spacing {
-	padding-left: 30px;
-	margin-top: 0;
-	position: relative;
+    padding-left: 30px;
+    margin-top: 0;
+    position: relative;
 }
+
 .adp-logo {
-	position: absolute;
-	top: 25px;
-	left: 30px;
+    position: absolute;
+    top: 25px;
+    left: 30px;
 }
+
 .cart-logo {
-	position: absolute;
-	top: 20px;
-	left: 135px;
+    position: absolute;
+    top: 20px;
+    left: 135px;
 }
+
 .secondary-content section h3 {
-	color: $secondary-color;
-	font-size: 1.3em;
+    color: $secondary-color;
+    font-size: 1.3em;
 }
+
 .about-us-heading {
-	background: $primary-color url(../img/bg_about_us.png) no-repeat;
-	width: 166px;
-	height: 30px;
+    background: $primary-color url(../img/bg_about_us.png) no-repeat;
+    width: 166px;
+    height: 30px;
 }
+
 .services-heading {
-	background: $primary-color url(../img/bg_heading_services.jpg) no-repeat;
-	width: 166px;
-	height: 30px;
+    background: $primary-color url(../img/bg_heading_services.jpg) no-repeat;
+    width: 166px;
+    height: 30px;
 }
+
 .wtgi-heading {
-	background: $primary-color url(../img/bg_heading_ways_tgi.png) no-repeat;
-	width: 166px;
-	height: 30px;
+    background: $primary-color url(../img/bg_heading_ways_tgi.png) no-repeat;
+    width: 166px;
+    height: 30px;
 }
+
 .secondary-content section li {
-	color: $secondary-color;
-	line-height: 1.5em;
+    color: $secondary-color;
+    line-height: 1.5em;
 }
+
 .secondary-content section a {
-	color: $secondary-color;
-	font-size: 11px;
+    color: $secondary-color;
+    font-size: 11px;
 }
+
 footer {
-	margin: 10px 0;
-	color: $secondary-color;
-	text-align: center;
+    margin: 10px 0;
+    color: $secondary-color;
+    text-align: center;
 }
+
+
 /* end of PEH2 code */
 
+
 /* For image replacement */
+
 .ir {
-	display: block;
-	text-indent: -999em;
-	overflow: hidden;
-	background-repeat: no-repeat;
-	text-align: left;
-	direction: ltr;
+    display: block;
+    text-indent: -999em;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    text-align: left;
+    direction: ltr;
 }
+
+
 /* Hide for both screenreaders and browsers:
    css-discuss.incutio.com/wiki/Screenreader_Visibility */
+
 .hidden {
-	display: none;
-	visibility: hidden;
+    display: none;
+    visibility: hidden;
 }
+
+
 /* Hide only visually, but have it available for screenreaders: by Jon Neal.
   www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden */
+
 .visuallyhidden {
-	border: 0;
-	clip: rect(0 0 0 0);
-	height: 1px;
-	margin: -1px;
-	overflow: hidden;
-	padding: 0;
-	position: absolute;
-	width: 1px;
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
 }
+
+
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: drupal.org/node/897638 */
-.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
-	clip: auto;
-	height: auto;
-	margin: 0;
-	overflow: visible;
-	position: static;
-	width: auto;
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
 }
+
+
 /* Hide visually and from screenreaders, but maintain layout */
+
 .invisible {
-	visibility: hidden;
+    visibility: hidden;
 }
+
+
 /* The Magnificent Clearfix: Updated to prevent margin-collapsing on child elements.
    j.mp/bestclearfix */
-.clearfix:before, .clearfix:after {
-	content: "\0020";
-	display: block;
-	height: 0;
-	overflow: hidden;
-}
+
+.clearfix:before,
 .clearfix:after {
-	clear: both;
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
 }
+
+.clearfix:after {
+    clear: both;
+}
+
+
 /* Fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
+
 .clearfix {
-	zoom: 1;
+    zoom: 1;
 }
+
 
 /**
  * Media queries for responsive design.
@@ -396,65 +366,79 @@ footer {
  */
 
 @media all and (orientation:portrait) {
-/* Style adjustments for portrait mode goes here */
-
+    /* Style adjustments for portrait mode goes here */
 }
- @media all and (orientation:landscape) {
-/* Style adjustments for landscape mode goes here */
 
+@media all and (orientation:landscape) {
+    /* Style adjustments for landscape mode goes here */
 }
+
 
 /* Grade-A Mobile Browsers (Opera Mobile, Mobile Safari, Android Chrome)
    consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
+
 @media screen and (max-device-width: 480px) {
-/* Uncomment if you don't want iOS and WinMobile to mobile-optimize the text for you: j.mp/textsizeadjust */
-  /* html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
+    /* Uncomment if you don't want iOS and WinMobile to mobile-optimize the text for you: j.mp/textsizeadjust */
+    /* html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
 }
+
 
 /**
  * Print styles.
  *
  * Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/
  */
+
 @media print {
-* {
-	background: transparent !important;
-	color: black !important;
-	text-shadow: none !important;
-	filter:none !important;
-	-ms-filter: none !important;
-} /* Black prints faster: sanbeiji.com/archives/953 */
-a, a:visited {
-	color: $tundora !important;
-	text-decoration: underline;
-}
-a[href]:after {
-	content: " (" attr(href) ")";
-}
-abbr[title]:after {
-	content: " (" attr(title) ")";
-}
-.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
-	content: "";
-}  /* Don't show links for img, or javascript/internal links */
-pre, blockquote {
-	border: 1px solid $dusty-gray;
-	page-break-inside: avoid;
-}
-thead {
-	display: table-header-group;
-} /* css-discuss.incutio.com/wiki/Printing_Tables */
-tr, img {
-	page-break-inside: avoid;
-}
- @page {
-margin: 0.5cm;
-}
-p, h2, h3 {
-	orphans: 3;
-	widows: 3;
-}
-h2, h3 {
-	page-break-after: avoid;
-}
+    * {
+        background: transparent !important;
+        color: black !important;
+        text-shadow: none !important;
+        filter: none !important;
+        -ms-filter: none !important;
+    }
+    /* Black prints faster: sanbeiji.com/archives/953 */
+    a,
+    a:visited {
+        color: $tundora !important;
+        text-decoration: underline;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+    /* Don't show links for img, or javascript/internal links */
+    pre,
+    blockquote {
+        border: 1px solid $dusty-gray;
+        page-break-inside: avoid;
+    }
+    thead {
+        display: table-header-group;
+    }
+    /* css-discuss.incutio.com/wiki/Printing_Tables */
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+    @page {
+        margin: 0.5cm;
+    }
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
 }
