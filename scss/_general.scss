@@ -14,36 +14,37 @@ article.facebook-entry {
     height: 321px;
     float: right;
     margin-top: 5px;
-}
 
-article.facebook-entry h3 {
+    h3 {
     background: $secondary-color url(../img/header_facebook.png) no-repeat;
     width: 293px;
     height: 43px;
     margin-top: 50px;
-}
+    }
 
-article.facebook-entry h4 {
+    h4 {
     color: $mine-shaft;
     padding-left: 30px;
     padding-top: 5px;
-}
+    }
 
-article.facebook-entry h5 {
+    h5 {
     color: $sea-buckthorn;
     padding-left: 30px;
     padding-top: 10px;
-}
+    
+        span {
+        color: $cloud;
+        }
+    
+    }
 
-article.facebook-entry h5 span {
-    color: $cloud;
-}
-
-article.facebook-entry p {
+    p {
     padding-left: 30px;
     padding-top: 10px;
     font-size: 11px;
     padding-right: 30px;
+    }
 }
 
 aside {
@@ -51,15 +52,15 @@ aside {
     margin-right: 12px;
     float: right;
     height: 294px;
-}
 
-aside h2.since1973 {
-    background: transparent url(../img/heading_since_1973.png) no-repeat;
-    width: 152px;
-    height: 42px;
-    margin: 16px 10px 0 140px;
-    padding: 10px;
-    position: inherit;
+    h2.since1973 {
+        background: transparent url(../img/heading_since_1973.png) no-repeat;
+        width: 152px;
+        height: 42px;
+        margin: 16px 10px 0 140px;
+        padding: 10px;
+        position: inherit;
+    }
 }
 
 .main-content {
@@ -67,29 +68,29 @@ aside h2.since1973 {
     float: left;
     background-color: $secondary-color;
     line-height: 1.4em;
-}
+    
+    h1 {
+        background: $secondary-color url(../img/heading_welcome_bhs.png) no-repeat;
+        color: $black;
+        width: 623px;
+        height: 47px;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
 
-.main-content h1 {
-    background: $secondary-color url(../img/heading_welcome_bhs.png) no-repeat;
-    color: $black;
-    width: 623px;
-    height: 47px;
-    margin-left: 30px;
-    margin-top: 15px;
-}
+     .colOne {
+        width: 290px;
+        float: left;
+        padding-left: 30px;
+    }
 
-.main-content .colOne {
-    width: 290px;
-    float: left;
-    padding-left: 30px;
-}
+    .colTwo {
+        width: 290px;
+        float: left;
+        padding-left: 25px;
+    }
 
-.main-content .colTwo {
-    width: 290px;
-    float: left;
-    padding-left: 25px;
-}
-
-.main-content p {
-    padding: 10px 0;
+    p {
+        padding: 10px 0;
+    }
 }
