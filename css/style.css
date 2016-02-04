@@ -28,20 +28,18 @@ header {
   background: transparent url(../img/bg_box.png) no-repeat;
   width: 258px;
   height: 37px; }
-
-.search-container .search-input {
-  background-color: transparent;
-  border: medium none;
-  color: #999999;
-  float: left;
-  font-size: 0.9em;
-  height: auto;
-  margin: 10px 5px 0 28px;
-  width: 185px; }
-
-.search-container .search-submit {
-  margin: 5px 0 0 10px;
-  width: 25px; }
+  .search-container .search-input {
+    background-color: transparent;
+    border: medium none;
+    color: #999999;
+    float: left;
+    font-size: 0.9em;
+    height: auto;
+    margin: 10px 5px 0 28px;
+    width: 185px; }
+  .search-container .search-submit {
+    margin: 5px 0 0 10px;
+    width: 25px; }
 
 .facebook-icon {
   padding: 12px 10px 0 15px; }
