@@ -241,30 +241,33 @@ article.facebook-entry p {
   font-size: 11px;
   padding-right: 30px; }
 
-.secondary-content {
+footer {
+  margin: 10px 0;
+  color: #ffffff;
+  text-align: center;
   background: #cccccc url(../img/top_footer_bg.png) no-repeat;
   height: 138px;
   clear: both;
   webkit-box-shadow: 5px 5px 25px #000000;
   -moz-box-shadow: 5px 5px 25px #000000;
   box-shadow: 5px 5px 25px #000000; }
+  footer h3 {
+    color: #ffffff;
+    font-size: 1.3em; }
+  footer section {
+    float: left;
+    margin-left: 20px;
+    margin-top: 16px; }
+    footer section.services-spacing {
+      padding-left: 64px; }
+    footer section.wtgi-spacing {
+      padding-left: 54px; }
+    footer section.cert-logos-spacing {
+      padding-left: 30px;
+      margin-top: 0;
+      position: relative; }
 
-.secondary-content section {
-  float: left;
-  margin-left: 20px;
-  margin-top: 16px; }
-
-.secondary-content section.services-spacing {
-  padding-left: 64px; }
-
-.secondary-content section.wtgi-spacing {
-  padding-left: 54px; }
-
-.secondary-content section.cert-logos-spacing {
-  padding-left: 30px;
-  margin-top: 0;
-  position: relative; }
-
+/* logos in footer */
 .adp-logo {
   position: absolute;
   top: 25px;
@@ -274,10 +277,6 @@ article.facebook-entry p {
   position: absolute;
   top: 20px;
   left: 135px; }
-
-.secondary-content section h3 {
-  color: #ffffff;
-  font-size: 1.3em; }
 
 .about-us-heading {
   background: #233e5f url(../img/bg_about_us.png) no-repeat;
@@ -294,18 +293,13 @@ article.facebook-entry p {
   width: 166px;
   height: 30px; }
 
-.secondary-content section li {
+footer section li {
   color: #ffffff;
   line-height: 1.5em; }
 
-.secondary-content section a {
+footer section a {
   color: #ffffff;
   font-size: 11px; }
-
-footer {
-  margin: 10px 0;
-  color: #ffffff;
-  text-align: center; }
 
 /* end of PEH2 code */
 /* For image replacement */
