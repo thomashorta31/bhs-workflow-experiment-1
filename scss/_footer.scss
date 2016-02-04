@@ -9,68 +9,58 @@ footer {
     -moz-box-shadow: 5px 5px 25px $black;
     box-shadow: 5px 5px 25px $black;
     h3 {
-      color: $secondary-color;
-      font-size: 1.3em;
+        color: $secondary-color;
+        font-size: 1.3em;
     }
     section {
-      float: left;
-      margin-left: 20px;
-      margin-top: 16px;
-      &.services-spacing {
-          padding-left: 64px;
-      }
-
-      &.wtgi-spacing {
-          padding-left: 54px;
-      }
-
-      &.cert-logos-spacing {
-          padding-left: 30px;
-          margin-top: 0;
-          position: relative;
-      }
+        float: left;
+        margin-left: 20px;
+        margin-top: 16px;
+        li {
+            color: $secondary-color;
+            line-height: 1.5em;
+        }
+        a {
+            color: $secondary-color;
+            font-size: 11px;
+        }
+        /* logos in footer */
+        .adp-logo {
+            position: absolute;
+            top: 25px;
+            left: 30px;
+        }
+        .cart-logo {
+            position: absolute;
+            top: 20px;
+            left: 135px;
+        }
+        // END logos footer
+        .about-us-heading {
+            background: $primary-color url(../img/bg_about_us.png) no-repeat;
+            width: 166px;
+            height: 30px;
+        }
+        .services-heading {
+            background: $primary-color url(../img/bg_heading_services.jpg) no-repeat;
+            width: 166px;
+            height: 30px;
+        }
+        .wtgi-heading {
+            background: $primary-color url(../img/bg_heading_ways_tgi.png) no-repeat;
+            width: 166px;
+            height: 30px;
+        }
+        &.services-spacing {
+            padding-left: 64px;
+        }
+        &.wtgi-spacing {
+            padding-left: 54px;
+        }
+        &.cert-logos-spacing {
+            padding-left: 30px;
+            margin-top: 0;
+            position: relative;
+        }
     }
-}
-
-/* logos in footer */
-.adp-logo {
-    position: absolute;
-    top: 25px;
-    left: 30px;
-}
-
-.cart-logo {
-    position: absolute;
-    top: 20px;
-    left: 135px;
-}
-// END logos footer
-
-.about-us-heading {
-    background: $primary-color url(../img/bg_about_us.png) no-repeat;
-    width: 166px;
-    height: 30px;
-}
-
-.services-heading {
-    background: $primary-color url(../img/bg_heading_services.jpg) no-repeat;
-    width: 166px;
-    height: 30px;
-}
-
-.wtgi-heading {
-    background: $primary-color url(../img/bg_heading_ways_tgi.png) no-repeat;
-    width: 166px;
-    height: 30px;
-}
-
-
-footer section li {
-    color: $secondary-color;
-    line-height: 1.5em;
-}
-
-footer section a {
-    color: $secondary-color;
-    font-size: 11px;
 }

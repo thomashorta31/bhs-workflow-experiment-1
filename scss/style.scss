@@ -5,92 +5,16 @@
  */
 
 @import "variables";
+@import "bug-fixes";
+@import "header";
+@import "general";
 @import "navigation";
-
-/* box sizing will save your life */
-* {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-body {
-    background: $primary-color url(../img/body_bg_grad.jpg) repeat-x;
-}
-
-a {
-    outline: 0;
-}
-
-
-/* http://haslayout.net/css-tuts/Removing-Dotted-Border-on-Clicked-Links ie9 dotted lines */
-
-
-/* Disable Highlight border focused on form controls in chrome, safari, android and iPhone browser  */
-
-*:focus {
-    outline: none;
-}
 
 .container {
     width: 960px;
     margin: 0 auto;
     font-size: 1.2em;
 }
-
-header {
-    position: relative;
-    background-color: $dove-gray;
-}
-
-.misc-items {
-    height: 56px;
-    background-color: $blue-zodiac;
-    position: relative;
-}
-
-.search-container {
-    position: absolute;
-    top: 13px;
-    left: 485px;
-    background: transparent url(../img/bg_box.png) no-repeat;
-    width: 258px;
-    height: 37px;
-}
-
-.search-container .search-input {
-    background-color: transparent;
-    border: medium none;
-    color: $dusty-gray;
-    float: left;
-    font-size: 0.9em;
-    height: auto;
-    margin: 10px 5px 0 28px;
-    width: 185px;
-}
-
-.search-container .search-submit {
-    margin: 5px 0 0 10px;
-    width: 25px;
-}
-
-.facebook-icon {
-    padding: 12px 10px 0 15px;
-}
-
-.donate {
-    position: absolute;
-    top: 17px;
-    right: 0;
-}
-
-.logo {
-    position: absolute;
-    top: 10px;
-    left: 0;
-    z-index: 99;
-}
-
-
 
 .page-divider {
     background: $secondary-color url(../img/bg_div_header.jpg) no-repeat;
@@ -194,10 +118,7 @@ article.facebook-entry p {
     padding-right: 30px;
 }
 
-
-
 @import "footer";
-
 
 /* end of PEH2 code */
 
