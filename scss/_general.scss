@@ -45,3 +45,51 @@ article.facebook-entry p {
     font-size: 11px;
     padding-right: 30px;
 }
+
+aside {
+    width: 291px;
+    margin-right: 12px;
+    float: right;
+    height: 294px;
+}
+
+aside h2.since1973 {
+    background: transparent url(../img/heading_since_1973.png) no-repeat;
+    width: 152px;
+    height: 42px;
+    margin: 16px 10px 0 140px;
+    padding: 10px;
+    position: inherit;
+}
+
+.main-content {
+    width: 960px;
+    float: left;
+    background-color: $secondary-color;
+    line-height: 1.4em;
+}
+
+.main-content h1 {
+    background: $secondary-color url(../img/heading_welcome_bhs.png) no-repeat;
+    color: $black;
+    width: 623px;
+    height: 47px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.main-content .colOne {
+    width: 290px;
+    float: left;
+    padding-left: 30px;
+}
+
+.main-content .colTwo {
+    width: 290px;
+    float: left;
+    padding-left: 25px;
+}
+
+.main-content p {
+    padding: 10px 0;
+}
