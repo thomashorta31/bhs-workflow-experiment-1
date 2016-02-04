@@ -8,104 +8,95 @@
 @import "bug-fixes";
 @import "general";
 @import "navigation";
+@import "header";
 
-.container {
-    width: 960px;
-    margin: 0 auto;
-    font-size: 1.2em;
-}
+// .page-divider {
+//     // background: $secondary-color url(../img/bg_div_header.jpg) no-repeat;
+//     // height: 374px;
+//     // position: relative;
+// }
 
-
-
-.page-divider {
-    background: $secondary-color url(../img/bg_div_header.jpg) no-repeat;
-    height: 374px;
-    position: relative;
-}
-
-.page-divider h2 {
-    background: transparent url(../img/header_blurb.png) no-repeat;
-    width: 680px;
-    height: 78px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: 0;
-}
+// .page-divider h2 {
+//     // background: transparent url(../img/header_blurb.png) no-repeat;
+//     // width: 680px;
+//     // height: 78px;
+//     // position: absolute;
+//     // left: 0;
+//     // bottom: 0;
+//     // z-index: 0;
+// }
 
 aside {
-    width: 291px;
-    margin-right: 12px;
-    float: right;
-    height: 294px;
+    // width: 291px;
+    // margin-right: 12px;
+    // // float: right;
+    // height: 294px;
 }
 
 aside h2.since1973 {
-    background: transparent url(../img/heading_since_1973.png) no-repeat;
-    width: 152px;
-    height: 42px;
-    margin: 16px 10px 0 140px;
-    padding: 10px;
-    position: inherit;
+    // background: transparent url(../img/heading_since_1973.png) no-repeat;
+    // width: 152px;
+    // height: 42px;
+    // margin: 16px 10px 0 140px;
+    // padding: 10px;
+    // position: inherit;
 }
 
 .main-content {
-    width: 960px;
-    float: left;
     background-color: $secondary-color;
-    line-height: 1.4em;
+    // line-height: 1.4em;
 }
 
 .main-content h1 {
     background: $secondary-color url(../img/heading_welcome_bhs.png) no-repeat;
     color: $black;
-    width: 623px;
-    height: 47px;
-    margin-left: 30px;
-    margin-top: 15px;
+    // width: 623px;
+    // height: 47px;
+    // margin-left: 30px;
+    // margin-top: 15px;
 }
 
-.main-content .colOne {
-    width: 290px;
-    float: left;
-    padding-left: 30px;
-}
+// .main-content .primary-content {
+//     width: 290px;
+//     float: left;
+//     padding-left: 30px;
+// }
 
-.main-content .colTwo {
-    width: 290px;
-    float: left;
-    padding-left: 25px;
-}
+// .main-content .secondary-content {
+//     width: 290px;
+//     float: left;
+//     padding-left: 25px;
+// }
 
-.main-content p {
-    padding: 10px 0;
-}
+// .main-content p {
+//     padding: 10px 0;
+// }
 
 article.facebook-entry {
     background: $secondary-color url(../img/bg_facebook_post.png) no-repeat;
-    width: 297px;
+    // width: 297px;
     height: 321px;
-    float: right;
+    // float: right;
     margin-top: 5px;
 }
 
 article.facebook-entry h3 {
     background: $secondary-color url(../img/header_facebook.png) no-repeat;
-    width: 293px;
-    height: 43px;
-    margin-top: 50px;
+    // width: 293px;
+    // height: 43px;
+    // margin-top: 50px;
 }
 
 article.facebook-entry h4 {
     color: $mine-shaft;
-    padding-left: 30px;
-    padding-top: 5px;
+    // padding-left: 30px;
+    // padding-top: 5px;
 }
 
 article.facebook-entry h5 {
     color: $sea-buckthorn;
-    padding-left: 30px;
-    padding-top: 10px;
+    // padding-left: 30px;
+    // padding-top: 10px;
 }
 
 article.facebook-entry h5 span {
@@ -113,19 +104,13 @@ article.facebook-entry h5 span {
 }
 
 article.facebook-entry p {
-    padding-left: 30px;
-    padding-top: 10px;
-    font-size: 11px;
-    padding-right: 30px;
+    // padding-left: 30px;
+    // padding-top: 10px;
+    // font-size: 11px;
+    // padding-right: 30px;
 }
 
-
-
 @import "footer";
-
-
-/* end of PEH2 code */
-
 @import "miscellaneous";
 @import "media-queries";
 @import "print";
