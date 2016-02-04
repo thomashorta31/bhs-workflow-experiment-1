@@ -1,0 +1,9 @@
+/* box sizing will save your life */
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+    background: $primary-color url(../img/body_bg_grad.jpg) repeat-x;
+}
