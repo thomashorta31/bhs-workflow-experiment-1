@@ -169,9 +169,9 @@ article.facebook-entry h5 span {
 
 footer {
   margin: 10px 0;
-  color: #ffffff;
+  color: #c2c1c0;
   text-align: center;
-  background: #cccccc url(../img/top_footer_bg.png) no-repeat;
+  background: url(../img/top_footer_bg.png) no-repeat;
   height: 138px;
   clear: both;
   webkit-box-shadow: 5px 5px 25px #000000;
