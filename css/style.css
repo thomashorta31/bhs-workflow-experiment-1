@@ -151,7 +151,6 @@ header {
   left: 0;
   z-index: 99; }
 
-/* http://haslayout.net/css-tuts/Removing-Dotted-Border-on-Clicked-Links ie9 dotted lines */
 .page-divider {
   background: #ffffff url(../img/bg_div_header.jpg) no-repeat;
   height: 374px;
@@ -166,6 +165,7 @@ header {
   bottom: 0;
   z-index: 0; }
 
+/* http://haslayout.net/css-tuts/Removing-Dotted-Border-on-Clicked-Links ie9 dotted lines */
 aside {
   width: 291px;
   margin-right: 12px;

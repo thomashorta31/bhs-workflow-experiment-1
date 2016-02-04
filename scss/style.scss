@@ -13,24 +13,6 @@
 
 /* http://haslayout.net/css-tuts/Removing-Dotted-Border-on-Clicked-Links ie9 dotted lines */
 
-
-
-.page-divider {
-    background: $secondary-color url(../img/bg_div_header.jpg) no-repeat;
-    height: 374px;
-    position: relative;
-}
-
-.page-divider h2 {
-    background: transparent url(../img/header_blurb.png) no-repeat;
-    width: 680px;
-    height: 78px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: 0;
-}
-
 aside {
     width: 291px;
     margin-right: 12px;
