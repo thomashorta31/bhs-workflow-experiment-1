@@ -1,0 +1,62 @@
+body {
+    background: #233e5f url(../_img/body_bg_grad.jpg) repeat-x;
+}
+
+.container {
+    background-color: #ffffff;
+}
+
+.jumbotron {
+    background-image: url(../_img/bg_div_header.jpg);
+    color: #ffffff;
+}
+
+.jumbotron h1 {
+    font-size: 55px;
+    margin-top: 88px;
+    text-shadow: 1px 1px 8px #000000;
+}
+
+.jumbotron p {
+    text-shadow: 1px 1px 3px #000000;
+}
+
+.well p {
+    font-size: 11px;
+}
+
+.well h3 {
+    margin-top: 0px;
+}
+
+.well h4 {
+    font-size: 16px;
+}
+
+.well li {
+    font-size: 9px;
+    line-height: 16px;
+}
+
+.well-1 {
+    margin-top: -100px;
+}
+
+.well-2 {
+    margin-top: 20px;
+    background-color: #0c2745;
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer p {
+    font-size: 9px;
+    color: #ffffff;
+}
+
+
+/*# sourceMappingURL=style.css.map */

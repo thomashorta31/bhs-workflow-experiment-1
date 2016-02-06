@@ -1,0 +1,19 @@
+$black:       #000000;
+$white:       #ffffff;
+$cello:       #233e5f;
+$blue-zodiac: #0c2745;
+
+
+body { background: $cello url(../_img/body_bg_grad.jpg) repeat-x; }
+.container { background-color: $white; }
+
+@import "jumbotron";
+@import "well-styles";
+
+
+footer   { 
+	text-align: center; 
+	margin-top: 10px; 
+
+	p { font-size: 9px; color: $white; }
+}
