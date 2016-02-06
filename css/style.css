@@ -7,7 +7,6 @@
 
 /* color scheme */
 
-
 /* http://haslayout.net/css-tuts/Removing-Dotted-Border-on-Clicked-Links ie9 dotted lines */
 
 a {
@@ -84,11 +83,13 @@ header {
 
 body {
     background: #233e5f url(../img/body_bg_grad.jpg) repeat-x;
+    position: relative;
+    top: -10px;
 }
 
 article.facebook-entry {
     background: #ffffff url(../img/bg_facebook_post.png) no-repeat;
-    width: 297px;
+    /*width: 297px;*/
     height: 321px;
     float: right;
     margin-top: 5px;
@@ -103,13 +104,13 @@ article.facebook-entry h3 {
 
 article.facebook-entry h4 {
     color: #282424;
-    padding-left: 30px;
+    /*padding-left: 30px;*/
     padding-top: 5px;
 }
 
 article.facebook-entry h5 {
     color: #f9a634;
-    padding-left: 30px;
+    /*padding-left: 30px;*/
     padding-top: 10px;
 }
 
@@ -118,42 +119,38 @@ article.facebook-entry h5 span {
 }
 
 article.facebook-entry p {
-    padding-left: 30px;
+    /*padding-left: 30px;*/
     padding-top: 10px;
     font-size: 11px;
     padding-right: 30px;
 }
 
+article p, .aside-box p { font-size: 14px; 
+        line-height: 16px;    
+}
+
 aside {
-    width: 291px;
-    margin-right: 12px;
+    /*width: 291px;*/
+    /*margin-right: 12px;*/
     float: right;
     height: 294px;
 }
 
 aside h2.since1973 {
-    background: transparent url(../img/heading_since_1973.png) no-repeat;
-    width: 152px;
+    /*background: transparent url(../img/heading_since_1973.png) no-repeat;*/
+    /*width: 152px;*/
     height: 42px;
     margin: 16px 10px 0 140px;
     padding: 10px;
     position: inherit;
 }
 
+
 .main-content {
     width: 960px;
     float: left;
     background-color: #ffffff;
     line-height: 1.4em;
-}
-
-.main-content h1 {
-    background: #ffffff url(../img/heading_welcome_bhs.png) no-repeat;
-    color: #000000;
-    width: 623px;
-    height: 47px;
-    margin-left: 30px;
-    margin-top: 15px;
 }
 
 .main-content .colOne {
@@ -295,7 +292,7 @@ nav a:hover {
 .container {
     width: 960px;
     margin: 0 auto;
-    font-size: 1.2em;
+    /*font-size: 1.2em;*/
 }
 
 .page-divider {
@@ -392,6 +389,17 @@ footer section.cert-logos-spacing {
     position: relative;
 }
 
+li { font-size: 11px; }
+
+h1 { font-size: 26px; }
+h2 { font-size: 24px; }
+
+.bottom-well-margin { margin-top: 20px; }
+
+.well { margin-bottom: 0px; }
+.well-2 { background-color: #0a2646; }
+.well-2 h6 { color: #fff; }
+.well-2 li { color: #377ab7; }
 
 /* end of PEH2 code */
 
