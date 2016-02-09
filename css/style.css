@@ -212,8 +212,8 @@ nav ul {
 
 nav .nav-home a {
     position: absolute;
-    left: 105px;
-    top: 75px;
+    left: 115px;
+    top: 83px;
     display: block;
     width: 100px;
     padding: 10px;
@@ -222,8 +222,8 @@ nav .nav-home a {
 
 nav .nav-about a {
     position: absolute;
-    left: 240px;
-    top: 75px;
+    left: 252px;
+    top: 83px;
     display: block;
     width: 100px;
     padding: 10px;
@@ -232,8 +232,8 @@ nav .nav-about a {
 
 nav .nav-service a {
     position: absolute;
-    left: 385px;
-    top: 75px;
+    left: 396px;
+    top: 83px;
     display: block;
     width: 100px;
     padding: 10px;
@@ -242,8 +242,8 @@ nav .nav-service a {
 
 nav .nav-addict a {
     position: absolute;
-    left: 505px;
-    top: 75px;
+    left: 513px;
+    top: 83px;
     display: block;
     width: 160px;
     padding: 10px;
@@ -256,8 +256,8 @@ nav .nav-addict a {
 
 nav .nav-appoint a {
     position: absolute;
-    left: 655px;
-    top: 75px;
+    left: 663px;
+    top: 83px;
     display: block;
     width: 150px;
     padding: 10px;
@@ -270,8 +270,8 @@ nav .nav-appoint a {
 
 nav .nav-contact a {
     position: absolute;
-    left: 790px;
-    top: 75px;
+    left: 807px;
+    top: 83px;
     display: block;
     width: 150px;
     padding: 10px;
