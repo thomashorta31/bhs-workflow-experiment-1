@@ -460,7 +460,13 @@ h2 { font-size: 24px; }
 .well { margin-bottom: 0px; }
 .well-2 { margin-top: 20px; }
 .well-2 { background-color: #0a2646; }
-.well-2 h6 { color: #fff; }
+.well-2 h6 { 
+    color: #fff; 
+    background-color: #091f37;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
 .well-2 li { color: #377ab7; }
 
 .cert-logos { margin-top: 16px; }
