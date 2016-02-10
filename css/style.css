@@ -167,6 +167,10 @@ ul.side-nav li a {
 
 .authorText { color: #e4e2e3; }
 
+h2.get-involved-sidebar-heading {
+    margin-top: 50px;
+}
+
 aside {
     /*width: 291px;*/
     /*margin-right: 12px;*/
