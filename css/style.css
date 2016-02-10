@@ -130,6 +130,10 @@ article p, .aside-box p { font-size: 12px;
         line-height: 1.4em;    
 }
 
+article a { 
+    font-size: 12px; 
+}
+
 article h3 { 
     font-size: 18px;
     color: #337ab7;
