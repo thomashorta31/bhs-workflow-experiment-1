@@ -597,6 +597,14 @@ h2 { font-size: 24px; }
 }
 
 
+@media (max-width: 991px) {
+    .search-container { display: none; }
+}
+
+@media (max-width: 767px) {
+    .sidebar-background { display: none; }
+}
+
 /**
  * Print styles.
  *
