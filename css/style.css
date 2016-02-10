@@ -148,6 +148,21 @@ article hr {
     background: none;
 }
 
+ul.side-nav {
+    margin-left: -40px;
+}
+
+ul.side-nav li {
+    background-color: orange;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+
+ul.side-nav li a { 
+    color: #fff;
+    font-size: 16px;
+}
+
 .dateText { color: #f99b15; }
 
 .authorText { color: #e4e2e3; }
