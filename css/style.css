@@ -139,6 +139,11 @@ article hr {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+.dateText { color: #f99b15; }
+
+.authorText { color: #e4e2e3; }
+
 aside {
     /*width: 291px;*/
     /*margin-right: 12px;*/
