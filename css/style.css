@@ -221,7 +221,6 @@ aside h2.since1973 {
 }
 
 .main-content {
-    width: 960px;
     float: left;
     background-color: #ffffff;
     line-height: 1.4em;
@@ -365,7 +364,6 @@ nav a:hover {
 }
 
 .container {
-    width: 960px;
     margin: 0 auto;
     /*font-size: 1.2em;*/
 }
