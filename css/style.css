@@ -467,7 +467,8 @@ h2 { font-size: 24px; }
     padding-bottom: 10px;
     font-size: 14px;
 }
-.well-2 li { color: #377ab7; }
+.well-2 li,
+.well-2 li a { color: #fff; }
 
 .footer-border { border-right: 1px solid #091f37; }
 
