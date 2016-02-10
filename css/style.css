@@ -178,6 +178,11 @@ ul.side-nav li a {
 
 .authorText { color: #e4e2e3; }
 
+img.facebook-module {
+    width: 100%;
+    height: auto;
+}
+
 h2.get-involved-sidebar-heading {
     margin-top: 115px;
     font-size: 18px;
