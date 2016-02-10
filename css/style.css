@@ -144,6 +144,10 @@ article hr {
     margin-bottom: 0px;
 }
 
+.article-nav {
+    background: none;
+}
+
 .dateText { color: #f99b15; }
 
 .authorText { color: #e4e2e3; }
