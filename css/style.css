@@ -139,7 +139,8 @@ article h3 {
     color: #337ab7;
 }
 
-article hr {
+article hr,
+hr.article-hr {
     margin-top: 0px;
     margin-bottom: 0px;
 }
