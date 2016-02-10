@@ -178,7 +178,8 @@ ul.side-nav li a {
 
 .authorText { color: #e4e2e3; }
 
-img.facebook-module {
+img.facebook-module,
+img.img-responsive {
     width: 100%;
     height: auto;
 }
