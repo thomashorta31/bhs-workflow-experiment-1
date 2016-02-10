@@ -169,6 +169,13 @@ ul.side-nav li a {
 
 h2.get-involved-sidebar-heading {
     margin-top: 115px;
+    font-size: 18px;
+    color: #337ab7;
+}
+
+h2.success-stories-sidebar-heading {
+    font-size: 18px;
+    color: #337ab7;
 }
 
 aside {
