@@ -135,6 +135,10 @@ article h3 {
     color: #337ab7;
 }
 
+article hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 aside {
     /*width: 291px;*/
     /*margin-right: 12px;*/
