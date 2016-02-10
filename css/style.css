@@ -469,6 +469,8 @@ h2 { font-size: 24px; }
 }
 .well-2 li { color: #377ab7; }
 
+.footer-border { border-right: 1px solid #091f37; }
+
 .cert-logos { margin-top: 16px; }
 
 /* end of PEH2 code */
