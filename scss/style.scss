@@ -9,64 +9,16 @@
 @import "general";
 @import "navigation";
 @import "header";
-
-// .page-divider {
-//     // background: $secondary-color url(../img/bg_div_header.jpg) no-repeat;
-//     // height: 374px;
-//     // position: relative;
-// }
-
-// .page-divider h2 {
-//     // background: transparent url(../img/header_blurb.png) no-repeat;
-//     // width: 680px;
-//     // height: 78px;
-//     // position: absolute;
-//     // left: 0;
-//     // bottom: 0;
-//     // z-index: 0;
-// }
-
-aside {
-    // width: 291px;
-    // margin-right: 12px;
-    // // float: right;
-    // height: 294px;
-}
-
-
-
 .main-content {
     background-color: $secondary-color;
-    // line-height: 1.4em;
 }
 
 .main-content h1 {
     background: $secondary-color url(../img/heading_welcome_bhs.png) no-repeat;
     color: $black;
-    // width: 623px;
-    // height: 47px;
-    // margin-left: 30px;
-    // margin-top: 15px;
 }
 
-// .main-content .primary-content {
-//     width: 290px;
-//     float: left;
-//     padding-left: 30px;
-// }
-
-// .main-content .secondary-content {
-//     width: 290px;
-//     float: left;
-//     padding-left: 25px;
-// }
-
-// .main-content p {
-//     padding: 10px 0;
-// }
-
 @import "aside";
-
 @import "footer";
 @import "miscellaneous";
 @import "media-queries";
