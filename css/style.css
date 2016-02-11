@@ -4,6 +4,13 @@
  * Author: PEH2
  */
 /* color scheme */
+<<<<<<< HEAD
+=======
+/* http://haslayout.net/css-tuts/Removing-Dotted-Border-on-Clicked-Links ie9 dotted lines */
+a {
+  outline: 0; }
+
+>>>>>>> upstream/master
 /* Disable Highlight border focused on form controls in chrome, safari, android and iPhone browser  */
 *:focus {
   outline: none; }
@@ -14,6 +21,7 @@
   box-sizing: border-box; }
 
 body {
+<<<<<<< HEAD
   background: #233e5f url(../img/body_bg_grad.jpg) repeat-x; }
 
 a {
@@ -23,6 +31,84 @@ a {
   width: 960px;
   margin: 0 auto;
   font-size: 1.2em; }
+=======
+  /*background: #233e5f url(../img/body_bg_grad.jpg) repeat-x;*/
+  position: relative;
+  top: -10px;
+  background: #1c2836;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#1c2836, #233e5f);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#1c2836, #233e5f);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#1c2836, #233e5f);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#1c2836, #233e5f);
+  /* Standard syntax (must be last) */ }
+
+article.facebook-entry {
+  background: #ffffff url(../img/bg_facebook_post.png) no-repeat;
+  width: 297px;
+  height: 321px;
+  float: right;
+  margin-top: 5px; }
+  article.facebook-entry h3 {
+    background: #ffffff url(../img/header_facebook.png) no-repeat;
+    width: 293px;
+    height: 43px;
+    margin-top: 50px; }
+  article.facebook-entry h4 {
+    color: #282424;
+    padding-left: 30px;
+    padding-top: 5px; }
+  article.facebook-entry h5 {
+    color: #f9a634;
+    padding-left: 30px;
+    padding-top: 10px; }
+    article.facebook-entry h5 span {
+      color: #c2c1c0; }
+  article.facebook-entry p {
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 11px;
+    padding-right: 30px; }
+
+aside {
+  width: 291px;
+  margin-right: 12px;
+  float: right;
+  height: 294px; }
+  aside h2.since1973 {
+    background: transparent url(../img/heading_since_1973.png) no-repeat;
+    width: 152px;
+    height: 42px;
+    margin: 16px 10px 0 140px;
+    padding: 10px;
+    position: inherit; }
+
+.main-content {
+  width: 960px;
+  float: left;
+  background-color: #ffffff;
+  line-height: 1.4em; }
+  .main-content h1 {
+    background: #ffffff url(../img/heading_welcome_bhs.png) no-repeat;
+    color: #000000;
+    width: 623px;
+    height: 47px;
+    margin-left: 30px;
+    margin-top: 15px; }
+  .main-content .colOne {
+    width: 290px;
+    float: left;
+    padding-left: 30px; }
+  .main-content .colTwo {
+    width: 290px;
+    float: left;
+    padding-left: 25px; }
+  .main-content p {
+    padding: 10px 0; }
+>>>>>>> upstream/master
 
 /* TOP NAV */
 .top-nav {
@@ -108,9 +194,103 @@ nav {
       color: #515152;
       letter-spacing: 0; }
 
+<<<<<<< HEAD
+=======
+/*
+nav {
+    height: 72px;
+    background: #666666 url(../img/header_bg.png) repeat;
+    margin-top: -13px;
+}
+
+nav ul li {
+    list-style: none;
+    color: #ffffff;
+}
+
+nav ul {
+    font-size: 11px;
+}
+
+nav .nav-home a {
+    position: absolute;
+    left: 115px;
+    top: 70px;
+    display: block;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav .nav-about a {
+    position: absolute;
+    left: 252px;
+    top: 70px;
+    display: block;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav .nav-service a {
+    position: absolute;
+    left: 396px;
+    top: 70px;
+    display: block;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav .nav-addict a {
+    position: absolute;
+    left: 513px;
+    top: 70px;
+    display: block;
+    width: 160px;
+    padding: 10px;
+    text-align: center;
+}
+*/
+>>>>>>> upstream/master
 header {
   position: relative;
   background-color: #666666; }
+  header x
+  .misc-items {
+    height: 56px;
+    background-color: #0c2745;
+    position: relative; }
+  header .search-container {
+    position: absolute;
+    top: 13px;
+    left: 485px;
+    background: transparent url(../img/bg_box.png) no-repeat;
+    width: 258px;
+    height: 37px; }
+    header .search-container .search-input {
+      background-color: transparent;
+      border: medium none;
+      color: #999999;
+      float: left;
+      font-size: 0.9em;
+      height: auto;
+      margin: 10px 5px 0 28px;
+      width: 185px; }
+    header .search-container .search-submit {
+      margin: 5px 0 0 10px;
+      width: 25px; }
+  header .facebook-icon {
+    padding: 12px 10px 0 15px; }
+  header .donate {
+    position: absolute;
+    top: 17px;
+    right: 0; }
+  header .logo {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    z-index: 99; }
 
 .misc-items {
   height: 56px;
@@ -124,7 +304,11 @@ header {
   background: transparent url(../img/bg_box.png) no-repeat;
   width: 258px;
   height: 37px; }
+<<<<<<< HEAD
   .search-container.search-input {
+=======
+  .search-container .search-input {
+>>>>>>> upstream/master
     background-color: transparent;
     border: medium none;
     color: #999999;
@@ -133,7 +317,11 @@ header {
     height: auto;
     margin: 10px 5px 0 28px;
     width: 185px; }
+<<<<<<< HEAD
   .search-container.search-submit {
+=======
+  .search-container .search-submit {
+>>>>>>> upstream/master
     margin: 5px 0 0 10px;
     width: 25px; }
 
@@ -151,6 +339,7 @@ header {
   left: 0;
   z-index: 99; }
 
+<<<<<<< HEAD
 .page-divider {
   background: #ffffff url(../img/bg_div_header.jpg) no-repeat;
   height: 374px;
@@ -180,70 +369,66 @@ aside h2.since1973 {
   padding: 10px;
   position: inherit; }
 
+=======
+>>>>>>> upstream/master
 .main-content {
-  width: 960px;
-  float: left;
-  background-color: #ffffff;
-  line-height: 1.4em; }
+  background-color: #ffffff; }
 
 .main-content h1 {
   background: #ffffff url(../img/heading_welcome_bhs.png) no-repeat;
-  color: #000000;
-  width: 623px;
-  height: 47px;
-  margin-left: 30px;
-  margin-top: 15px; }
-
-.main-content .colOne {
-  width: 290px;
-  float: left;
-  padding-left: 30px; }
-
-.main-content .colTwo {
-  width: 290px;
-  float: left;
-  padding-left: 25px; }
-
-.main-content p {
-  padding: 10px 0; }
+  color: #000000; }
 
 article.facebook-entry {
   background: #ffffff url(../img/bg_facebook_post.png) no-repeat;
-  width: 297px;
   height: 321px;
-  float: right;
   margin-top: 5px; }
 
 article.facebook-entry h3 {
-  background: #ffffff url(../img/header_facebook.png) no-repeat;
-  width: 293px;
-  height: 43px;
-  margin-top: 50px; }
+  background: #ffffff url(../img/header_facebook.png) no-repeat; }
 
 article.facebook-entry h4 {
-  color: #282424;
-  padding-left: 30px;
-  padding-top: 5px; }
+  color: #282424; }
 
 article.facebook-entry h5 {
-  color: #f9a634;
-  padding-left: 30px;
-  padding-top: 10px; }
+  color: #f9a634; }
 
 article.facebook-entry h5 span {
   color: #c2c1c0; }
 
-article.facebook-entry p {
-  padding-left: 30px;
-  padding-top: 10px;
-  font-size: 11px;
-  padding-right: 30px; }
+ul.side-nav li {
+  background: orange;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(orange, #f59211);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(orange, #f59211);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(orange, #f59211);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(orange, #f59211);
+  /* Standard syntax (must be last) */
+  padding: 10px;
+  margin-bottom: 1px; }
+
+ul.side-nav li a {
+  color: #fff;
+  font-size: 16px; }
+
+.dateText {
+  color: #f99b15; }
+
+.authorText {
+  color: #e4e2e3; }
+
+.sidebar-background {
+  /*background-color: yellow;*/
+  box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 0px; }
 
 footer {
   margin: 10px 0;
-  color: #ffffff;
+  color: #c2c1c0;
   text-align: center;
-  background: #cccccc url(../img/top_footer_bg.png) no-repeat;
+  background: url(../img/top_footer_bg.png) no-repeat;
   height: 138px;
   clear: both;
   webkit-box-shadow: 5px 5px 25px #000000;
@@ -255,7 +440,34 @@ footer {
   footer section {
     float: left;
     margin-left: 20px;
-    margin-top: 16px; }
+    margin-top: 16px;
+    /* logos in footer */ }
+    footer section li {
+      color: #ffffff;
+      line-height: 1.5em; }
+    footer section a {
+      color: #ffffff;
+      font-size: 11px; }
+    footer section .adp-logo {
+      position: absolute;
+      top: 25px;
+      left: 30px; }
+    footer section .cart-logo {
+      position: absolute;
+      top: 20px;
+      left: 135px; }
+    footer section .about-us-heading {
+      background: #233e5f url(../img/bg_about_us.png) no-repeat;
+      width: 166px;
+      height: 30px; }
+    footer section .services-heading {
+      background: #233e5f url(../img/bg_heading_services.jpg) no-repeat;
+      width: 166px;
+      height: 30px; }
+    footer section .wtgi-heading {
+      background: #233e5f url(../img/bg_heading_ways_tgi.png) no-repeat;
+      width: 166px;
+      height: 30px; }
     footer section.services-spacing {
       padding-left: 64px; }
     footer section li {
@@ -291,8 +503,126 @@ footer {
       margin-top: 0;
       position: relative; }
 
+<<<<<<< HEAD
 /* logos in footer */
 /* end of PEH2 code */
+=======
+/*
+footer section {
+    float: left;
+    margin-left: 20px;
+    margin-top: 16px;
+     }
+    footer section li {
+      color: #ffffff;
+      line-height: 1.5em; }
+    footer section a {
+      color: #ffffff;
+      font-size: 11px; }
+    footer section .adp-logo {
+      position: absolute;
+      top: 25px;
+      left: 30px; }
+    footer section .cart-logo {
+      position: absolute;
+      top: 20px;
+      left: 135px; }
+    footer section .about-us-heading {
+      background: #233e5f url(../img/bg_about_us.png) no-repeat;
+      width: 166px;
+      height: 30px; }
+    footer section .services-heading {
+      background: #233e5f url(../img/bg_heading_services.jpg) no-repeat;
+      width: 166px;
+      height: 30px; }
+    footer section .wtgi-heading {
+      background: #233e5f url(../img/bg_heading_ways_tgi.png) no-repeat;
+      width: 166px;
+      height: 30px; }
+    footer section.services-spacing {
+      padding-left: 64px; }
+    footer section.wtgi-spacing {
+      padding-left: 54px; }
+    footer section.cert-logos-spacing {
+      padding-left: 30px;
+      margin-top: 0;
+      position: relative; }
+}
+
+footer section li {
+    color: #ffffff;
+    line-height: 1.5em;
+}
+
+footer section a {
+    color: #ffffff;
+    font-size: 11px;
+}
+
+footer section .adp-logo {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+}
+
+footer section .cart-logo {
+    position: absolute;
+    top: 20px;
+    left: 135px;
+}
+
+footer section .about-us-heading {
+    background: #233e5f url(../img/bg_about_us.png) no-repeat;
+    width: 166px;
+    height: 30px;
+}
+
+footer section .services-heading {
+    background: #233e5f url(../img/bg_heading_services.jpg) no-repeat;
+    width: 166px;
+    height: 30px;
+}
+
+footer section .wtgi-heading {
+    background: #233e5f url(../img/bg_heading_ways_tgi.png) no-repeat;
+    width: 166px;
+    height: 30px;
+}
+
+footer section.services-spacing {
+    padding-left: 64px;
+}
+
+footer section.wtgi-spacing {
+    padding-left: 54px;
+}
+
+footer section.cert-logos-spacing {
+    padding-left: 30px;
+    margin-top: 0;
+    position: relative;
+}
+
+.bottom-well-margin { margin-top: 0px; }
+
+.well { margin-bottom: 0px; }
+.well-2 { margin-top: 20px; }
+.well-2 { background-color: #0a2646; }
+.well-2 h6 {
+    color: #fff;
+    background-color: #091f37;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.well-2 li,
+.well-2 li a { color: #fff; }
+
+.footer-border { border-right: 1px solid #091f37; }
+
+.cert-logos { margin-top: 16px; }
+*/
+>>>>>>> upstream/master
 /* For image replacement */
 .ir {
   display: block;

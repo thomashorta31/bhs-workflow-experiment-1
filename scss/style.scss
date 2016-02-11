@@ -9,6 +9,7 @@
 @import "general";
 @import "navigation";
 @import "header";
+<<<<<<< HEAD
 
 
 /* http://haslayout.net/css-tuts/Removing-Dotted-Border-on-Clicked-Links ie9 dotted lines */
@@ -29,83 +30,19 @@ aside h2.since1973 {
     position: inherit;
 }
 
+=======
+>>>>>>> upstream/master
 .main-content {
-    width: 960px;
-    float: left;
     background-color: $secondary-color;
-    line-height: 1.4em;
 }
 
 .main-content h1 {
     background: $secondary-color url(../img/heading_welcome_bhs.png) no-repeat;
     color: $black;
-    width: 623px;
-    height: 47px;
-    margin-left: 30px;
-    margin-top: 15px;
 }
 
-.main-content .colOne {
-    width: 290px;
-    float: left;
-    padding-left: 30px;
-}
-
-.main-content .colTwo {
-    width: 290px;
-    float: left;
-    padding-left: 25px;
-}
-
-.main-content p {
-    padding: 10px 0;
-}
-
-article.facebook-entry {
-    background: $secondary-color url(../img/bg_facebook_post.png) no-repeat;
-    width: 297px;
-    height: 321px;
-    float: right;
-    margin-top: 5px;
-}
-
-article.facebook-entry h3 {
-    background: $secondary-color url(../img/header_facebook.png) no-repeat;
-    width: 293px;
-    height: 43px;
-    margin-top: 50px;
-}
-
-article.facebook-entry h4 {
-    color: $mine-shaft;
-    padding-left: 30px;
-    padding-top: 5px;
-}
-
-article.facebook-entry h5 {
-    color: $sea-buckthorn;
-    padding-left: 30px;
-    padding-top: 10px;
-}
-
-article.facebook-entry h5 span {
-    color: $cloud;
-}
-
-article.facebook-entry p {
-    padding-left: 30px;
-    padding-top: 10px;
-    font-size: 11px;
-    padding-right: 30px;
-}
-
-
-
+@import "aside";
 @import "footer";
-
-
-/* end of PEH2 code */
-
 @import "miscellaneous";
 @import "media-queries";
 @import "print";
